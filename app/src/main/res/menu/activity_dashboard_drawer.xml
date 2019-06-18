@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/transaksi"
+        android:orderInCategory="0"
+        android:title="Transaksi"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/pulsa"
+                android:icon="@drawable/ic_pulsa"
+                android:title="Pulsa" />
+            <item
+                android:id="@+id/data"
+                android:icon="@drawable/ic_data"
+                android:title="Data" />
+            <item
+                android:id="@+id/games"
+                android:icon="@drawable/ic_games"
+                android:title="Games" />
+            <item
+                android:id="@+id/listrik"
+                android:icon="@drawable/listrik"
+                android:title="Listrik" />
+            <item
+                android:id="@+id/air"
+                android:icon="@drawable/ic_water"
+                android:title="Air" />
+            <item
+                android:id="@+id/indihome"
+                android:icon="@drawable/ic_indihome"
+                android:title="Indihome" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_aboutus"
+        android:title="About Us" />
+
+    <item android:title="Users">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_profile"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">uas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="ini_adalah_menu_activity">Ini adalah menu activity</string>
+    <string name="search">Search</string>
+    <string name="menu1">Menu1</string>
+    <string name="menu2">Profile</string>
+    <string name="search_hint">Masukkan Kata</string>
+    <string name="title_activity_dashboard">Gogocash</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Gogocash</string>
+    <string name="nav_header_subtitle">Prince 046, Novi 051, Fahmi 057</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Logout</string>
+
+</resources>

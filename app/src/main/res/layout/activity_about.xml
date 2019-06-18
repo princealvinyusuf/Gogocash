@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".activity.AboutActivity">
+
+     <TextView
+        android:id="@+id/text"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="Tentang Kami"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="220dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="Prince Alvin Yusuf(046)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="280dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="Novi Anggraeni(051)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="340dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="Fahmi Aulia Rahmatullah(057)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
